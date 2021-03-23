@@ -1,20 +1,27 @@
-.values, .operators, .calcBtn{
+.values, .operators, .calcBtn, .myCalc{
     padding: 20px;
 }
 
 .myCalc{
-    padding: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-style: double;
     text-align: center;
-    background-color: aqua;
+    background-color: whitesmoke;
     max-width: 30%;
 }
 
 #result{
     display: inline-block;
-    border-style: groove;
     background-color: white;
+    font-weight: bold;
+}
+
+body {
+    background: linear-gradient(to right top, rgb(117, 216, 134), rgb(106, 90, 156));
+}
+
+html, body {
+    height: 100%
 }
