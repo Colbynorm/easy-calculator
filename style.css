@@ -2,19 +2,22 @@
     padding: 20px;
 }
 
+#parent {
+    padding-top: 200px;
+}
+
 .myCalc{
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-style: double;
     text-align: center;
-    background-color: whitesmoke;
+    background: linear-gradient(to left bottom, rgb(117, 216, 134), rgb(106, 90, 156));
     max-width: 30%;
 }
 
 #result{
     display: inline-block;
-    background-color: white;
     font-weight: bold;
 }
 
@@ -23,5 +26,6 @@ body {
 }
 
 html, body {
-    height: 100%
+    height: 100%;
+    overflow: hidden;
 }
